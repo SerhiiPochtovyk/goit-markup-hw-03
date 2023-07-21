@@ -330,7 +330,7 @@ body {
 
 .items-employe {
   display: flex;
-
+  padding: 32px 0 32px;
   justify-content: space-between;
   padding-bottom: 120px;
 }
