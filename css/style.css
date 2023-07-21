@@ -190,8 +190,7 @@ body {
 /* main-page banner */
 
 .hero {
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0 188px
   text-align: center;
   background-color: var(--primary-color);
   border-top: 1px solid #e7e9fc;
@@ -203,6 +202,7 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 
 .caption {
   max-width: 496px;
@@ -313,13 +313,12 @@ body {
   display: flex;
   align-items: center;
   padding-top: 120px;
-
   padding-bottom: 120px;
-}
+   }
 
 .headline-employe {
   text-align: center;
-  font-size: 36px;
+  font-size: 32px 0 32px;
   line-height: 1.11;
 
   letter-spacing: 0.02em;
