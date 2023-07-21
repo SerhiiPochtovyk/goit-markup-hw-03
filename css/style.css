@@ -188,9 +188,9 @@ body {
 }
 
 /* main-page banner */
-
+/* section first */
 .hero {
-  padding: 188px 0 188px
+  padding: 188px 0 188px;
   text-align: center;
   background-color: var(--primary-color);
   border-top: 1px solid #e7e9fc;
@@ -202,7 +202,6 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-
 
 .caption {
   max-width: 496px;
@@ -312,9 +311,10 @@ body {
   background-color: var(--secondary-color);
   display: flex;
   align-items: center;
+  padding: 32px 0 32px;
   padding-top: 120px;
   padding-bottom: 120px;
-   }
+}
 
 .headline-employe {
   text-align: center;
@@ -337,6 +337,7 @@ body {
 
 .item-employe {
   text-align: center;
+  padding: 32px 0 32px;
   margin-right: 24px;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
